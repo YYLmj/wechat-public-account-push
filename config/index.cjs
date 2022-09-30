@@ -14,7 +14,7 @@ const USER_CONFIG = {
   // 如果你非要填这里也行。脚本也能运行
   APP_SECRET: '45ae7ed16f8d1c9b1e11f9fac4e799db',
   templareId:"ralwSAyM6CHhtcS54yhxaap2zRq3CH4A6J-epTBQAZA	",
-  user:["os5sX6CL0iqu63GNGn4IqwbzLOtw"，"os5sX6JMDGRVyPektFqTVlL6yias"],
+  USER:["os5sX6CL0iqu63GNGn4IqwbzLOtw"，"os5sX6JMDGRVyPektFqTVlL6yias"],
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -62,7 +62,6 @@ const USER_CONFIG = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [
     {
       // 想要发送的人的名字
       name: '亲爱的老婆大人：',
@@ -151,22 +150,21 @@ const USER_CONFIG = {
           ],
         }
       },
-  ],
 
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '日推',
+  CALLBACK_TEMPLATE_ID: 'ralwSAyM6CHhtcS54yhxaap2zRq3CH4A6J-epTBQAZA',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: '自己',
+      name: '',
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '像风一样',
+      id: 'os5sX6CL0iqu63GNGn4IqwbzLOtw',
     }
     // 你可以不断按格式往下增加
     // ...
